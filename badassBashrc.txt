@@ -1,6 +1,10 @@
 #!/bin/bash
 iatest=$(expr index "$-" i)
 
+source /opt/miniconda3/bin/activate
+conda activate conda_env
+export XDG_RUNTIME_DIR=""
+
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
